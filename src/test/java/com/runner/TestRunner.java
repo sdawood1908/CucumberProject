@@ -19,5 +19,6 @@ public class TestRunner {
 	public static void afterClass() {
 		Reporting.jvmReport(System.getProperty("user.dir")+"\\src\\test\\resources\\Reports\\Adactin.json");
 
+		System.out.println("shaik");
 	}
 }
